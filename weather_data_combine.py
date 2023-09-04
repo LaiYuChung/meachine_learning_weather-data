@@ -25,7 +25,7 @@ for i in range(10):
     data10y = pd.concat([data10y,data])
 print(len(data10y))
 
-#因原先資料欄位沒有對齊，因此合併欄位資料，並刪除多於欄位，如無以上問題可不需做此動作
+#因原先資料欄位沒有對齊，因此合併欄位資料，並刪除多餘欄位，如無以上問題可不需做此動作
 data5y["dew_point_temp"] = list(data5y["dew_point_temp"])[:1096] + list(data5y["dew point temp"])[1096:]
 data5y["relative_humidity"] = list(data5y["relative_humidity"])[:1096] + list(data5y["relative humidity"])[1096:]
 data5y.drop(["dew point temp","relative humidity"],axis=1,inplace=True)
