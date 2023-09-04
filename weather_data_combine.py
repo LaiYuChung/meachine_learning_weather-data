@@ -4,7 +4,7 @@ import pandas as pd
 import os
 
 #合併短、中、長期資料
-#範例為檔案放在histort_data資料夾路徑底下，可根據當下狀況跟改路徑
+#範例為檔案放在histort_data資料夾路徑底下，可根據當下狀況更改路徑
 #下述操作為根據cwb_weather_data_crawling設定之檔名，如檔名不同需修改此部分
 file_name = os.listdir("./history_data/")
 data1y = pd.DataFrame()
