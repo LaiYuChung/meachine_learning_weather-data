@@ -9,7 +9,7 @@
 | rnn_model.py | RNN模型 |
 | lstm_model.py | LSTM模型 |
 | cnn_model.py | CNN模型 |
-| cwb_weather_data_crawling | 天氣資料爬蟲 |
-| cwb_weather_data_combine | 合併爬蟲後資料 |
+| cwb_weather_data_crawling.py | 天氣資料爬蟲 |
+| weather_data_combine.py | 合併爬蟲後資料 |
 
 
