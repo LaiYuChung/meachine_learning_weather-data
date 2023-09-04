@@ -6,7 +6,7 @@
 | history_data_1_year | 一年天氣資料 |
 | history_data_5_year | 五年天氣資料 |
 | history_data_10_year | 十年天氣資料 |
-| RNN_model.py | RNN模型 |
-| LSTM_model.py | LSTM模型 |
-| CNN_model.py | CNN模型 |
+| rnn_model.py | RNN模型 |
+| lstm_model.py | LSTM模型 |
+| cnn_model.py | CNN模型 |
 
