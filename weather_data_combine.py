@@ -46,7 +46,7 @@ d1["dew_point_temp"][2517:2519] = [17.0, 17.0]
 d1["relative_humidity"][2517:2519] = [75.3, 75.3]
 d1.to_csv("history_data_10_year")
 
-d1 = pd.read_csv("history_data_5_year")
-d1["dew_point_temp"][691:693] = [17.0, 17.0]
-d1["relative_humidity"][691:693] = [75.3, 75.3]
-d1.to_csv("history_data_5_year")
+d5 = pd.read_csv("history_data_5_year")
+d5["dew_point_temp"][691:693] = [17.0, 17.0]
+d5["relative_humidity"][691:693] = [75.3, 75.3]
+d5.to_csv("history_data_5_year")
